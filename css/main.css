@@ -1,0 +1,602 @@
+
+/*MAIN OPTIONS*/
+
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	
+}
+
+div {
+	box-sizing: border-box;
+}
+
+
+/*HEADER BACKGROUND IMAGE*/
+header {
+	background: url(../img/first_bg.jpg) no-repeat center top / cover;
+	padding-bottom: 200px;
+	
+}
+
+/*FIX, JUST FIX*/
+.clearfix: after {
+	content: "";
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+/* margin 0 auto ставит содержимое класса по центру*/
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+	padding-bottom: 10px;
+}
+
+
+/*HEADER ITSELF*/
+.logo {
+	margin-top: 20px;
+	margin-left: 15px;
+	float: left;
+}
+
+/*MENU*/
+nav {
+	float: right;
+	margin-top: 55px;
+	align-content: center;	
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li  {
+	margin-right: 50px;
+	float: left;
+	display: block;
+	
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+menu a {
+	position: absolute;
+	bottom: 0px;
+}
+
+/*SOCIAL LINKS*/
+.menu_social {
+	margin-right: 25px !important;
+}
+
+.latest_social {
+	margin-right: 15px !important;
+}
+
+
+/*horizontal line between menu and titles */
+.heading hr {
+	height: 10px;
+}
+
+.titles {
+	margin-top: 210px;
+}
+
+.titles_first {
+	font-size: 152px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/*Powered by PSD Freebies.com*/
+h1 {
+	font-size: 25px;
+	color: #11749e;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+}
+
+
+.scroll_down_button_and_text {
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+}
+
+.scroll_down_button_and_text img {
+	margin-top: 20px;
+}
+
+
+.scroll_down_text {
+	text-align: center;
+	color: #fff;
+	margin-top: 120px;
+}
+
+
+
+
+/*AGENCY FEATURES*/
+
+.full_width_tinted  {
+	background-color: #11749e;
+	padding-bottom: 120px;
+	overflow: auto; 
+}
+/*overflow: auto prevents margins from collapsing*/
+
+.agency_features {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 70px;
+	text-transform: uppercase;
+	font-size: 30px;
+	position: relative;
+}
+
+.w_letter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 175px;
+}
+
+.text_over_image {
+	position: absolute;
+	top: 60%;
+	left: 21%;
+}
+
+.services_item {
+	width: 270px;
+	float: left;
+	text-align: center;
+	color: #fff;
+}
+
+.services_item img {
+	margin-bottom: 20px;
+}
+
+.services_item h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 35px;
+}
+
+.services_item p {
+	font-size: 15px;
+	line-height: 1.7em;
+}
+
+.services_item:nth-child(1) {
+	margin-left: 20px;
+}
+
+.services_item:nth-child(2) {
+	margin-left: 175px;
+}
+
+.services_item:last-child {
+	float: right;
+	margin-right: 20px;
+}
+
+
+
+
+/*AKITA DARK GREY PARAGRAPH AND PHOTO*/
+#dark_grey_akita_photo_id {
+	background-color: #222222;
+	margin-top: 0px;
+	overflow: auto;
+}
+
+#grey_akita_photo_id .container {
+	padding-bottom: 0px;	
+}
+
+.akita_paragraph {
+	float: left;
+	color: #fff;
+	width: 470px;
+	margin-top: 82px;
+	position: center;
+}
+
+.akita_paragraph  h3 {
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+.akita_paragraph p {
+	font-size: 15px;
+	line-height: 1.7em;
+}
+
+#dark_grey_akita_photo_id img  {
+	float: right;
+	object-fit: cover ;
+	width: 50% ;
+	margin-top: -385px;
+	max-height: 80vh;
+}
+
+
+
+/*AKITA LIGHT GREY PARAGRAPH AND PHOTO*/
+
+#dark_grey_akita_photo_id_2 {
+	background-color: #f3f3f3;
+	margin-top: 0px;
+	overflow: auto;
+}
+
+#grey_akita_photo_id_2 .container {
+	padding-bottom: 0px;	
+}
+
+.akita_paragraph_2 {
+	float: right;
+	color: #222222;
+	width: 470px;
+	margin-top: 82px;
+	position: center;
+
+}
+
+.akita_paragraph_2  h3 {
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+.akita_paragraph_2 p {
+	font-size: 15px;
+	line-height: 1.7em;
+}
+
+
+#dark_grey_akita_photo_id_2 img  {
+	float: left;
+	object-fit: cover ;
+	width: 50% ;
+	margin-top: -385px;
+	max-height: 80vh;
+}
+
+
+
+
+/*LET'S BLOG*/
+
+.full_width_tinted_2  {
+	padding-bottom: 80px;
+	overflow: auto; 
+}
+/*overflow: auto prevents margins from collapsing*/
+
+.let_us_blog {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	position: relative;
+}
+
+
+.b_letter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 175px;
+	margin-bottom: 40px;
+}
+
+.text_over_image_2 {
+	position: absolute;
+	top: 38%;
+	left: 39%;
+}
+
+.let_us_blog h3 {
+	font-size: 30px;
+	margin-bottom: 80px;
+	}
+
+
+.let_us_blog_item {
+	width: 270px;
+	float: left;
+	text-align: center;
+	
+}
+
+.let_us_blog_item img {
+	margin-bottom: 45px;
+
+}
+
+.let_us_blog_item h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 18px;
+	color: #11749e;
+}
+
+.let_us_blog_item p {
+	font-size: 15px;
+	line-height: 1.7em;
+}
+
+
+.let_us_blog_item:nth-child(1) {
+	margin-left: 20px;
+}
+
+.let_us_blog_item:nth-child(2) {
+	margin-left: 175px;
+}
+
+.let_us_blog_item:last-child {
+	float: right;
+	margin-right: 20px;
+}
+
+
+
+
+
+/*BLUE BACKGROUND AND LOGO*/
+
+
+#blue_background_image_and_paragraph {
+	background: #11749e;
+	padding-bottom: 130px;	
+}
+
+.image_and_paragraph {
+	margin-left: 20px;
+	margin-top: 115px;
+}
+
+
+.image_and_paragraph img {
+	float: left;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+.image_and_paragraph p {
+	width: 470px;
+	color: #ffffff;
+	float: left;
+	display: inline;
+	margin: 0 auto;
+	line-height: 1.7em;
+}
+
+.second img {
+	margin-left: 40px;
+}
+
+
+
+/*BACKGROUND AND PHONE*/
+#background_and_phone {
+	background: url(../img/second_bg.jpg) no-repeat center top / cover;
+	padding-bottom: 150px;
+}
+
+
+#background_and_phone .akita_paragraph {
+	margin-top: 270px;
+}
+
+.blue_text_block {
+	margin-top: 60px;
+}
+
+.blue_text_block p {
+	background: #11749e;
+	text-transform: uppercase;
+	padding: 5px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+.text_1 {
+	width: 370px;
+}
+
+.text_2 {
+	width: 400px;
+}
+
+.text_3 {
+	width: 430px;
+}
+
+.phone_img {
+	float: right;
+	margin-top: 100px;
+}
+
+
+
+/*OUR TEAM*/
+
+.t_letter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 170px;
+	margin-bottom: 70px;
+}
+
+.text_over_image_3 {
+	position: absolute;
+	top: 37%;
+	left: 40%;
+}
+
+
+.members_container {
+	overflow: hidden;
+}
+
+.team_members {
+	float: left;
+	margin-right: 30px;
+	text-align: center;
+	position: relative;
+	margin-bottom: 80px;
+}
+
+.team_members:last-child {
+	float: right;
+	margin-right: 15px;
+}
+
+.team_members:nth-child(1) {
+	margin-left: 15px;
+}
+
+.member_paragraphs {
+	margin-top: -62px;
+	width: 215px;
+	margin-left: 25px;
+	background-color: white;
+	position: absolute;
+}
+
+.member_name {
+	color: #11749e;
+	text-transform: uppercase;
+	margin-bottom: -8px;
+	font-weight: bold;
+}
+
+.member_job {
+	color: black;
+}
+
+
+
+/*WE'D LOVE TO HEAR ABOUT YOUR PROJECT*/
+
+#we_would_love_to_hear {
+	background: url(../img/third_bg.jpg) no-repeat center top / cover;
+	padding-bottom: 120px;
+}
+
+
+.c_letter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 170px;
+	margin-bottom: 70px;
+}
+
+.text_over_image_4 {
+	position: absolute;
+	top: 46%;
+	left: 9%;
+	color: white;
+}
+
+
+.name_email_phone {
+	float: left;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.name_email_phone:nth-child(1) {
+	margin-left: 17px;
+}
+
+.name_email_phone:nth-child(2) {
+	margin-left: 31px;
+}
+
+.name_email_phone:last-child {
+	float: right;
+	margin-right: 15px;
+}
+
+.name_email_phone input[type="text"] {
+	background: transparent;
+	width: 340px;
+	padding: 12px;
+	color: #ffffff;
+}
+
+
+.message_container {
+	margin-left: 17px;
+}
+
+.message_container input[type="text"] {
+	color: #ffffff;
+	width: 1140px;
+	padding: 12px;
+	background: transparent;
+	padding-bottom: 150px;
+}
+
+.submit_button {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.submit_button a {
+	background: #11749e;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+	padding-top: 20px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 20px;
+}
+
+
+
+#map_background {
+	padding-bottom: 400px;
+	background: url(../img/footer_map.jpg) no-repeat center top / cover;
+}
+
+footer {
+	background: #222222;
+	padding-bottom: 10px;
+}
+
+footer p {
+	color: #ffffff;
+	margin-top: 40px;
+}
+
+footer img {
+	float: right;
+	margin-top: -40px;
+}
